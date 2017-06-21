@@ -43,3 +43,4 @@ Feature: zsh tab-completion
     Given I'm using git-distributed base git completions
     When I type "git ci-" and press <Tab>
     Then the command should expand to "git ci-status"
+#add code fengsl
